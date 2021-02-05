@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "flipt-grpc-python"
+name = "flipt-grpc-python3"
 version = "0.1.0"
 description = ""
 authors = ["David Cramer <dcramer@gmail.com>"]
+maintainers = [
+    "Preeti Yuankrathok <preetisatit@gmail.com>"
+]
 license = "Apache-2.0"
 packages = [
     { include = "flipt_pb2.py", from = "lib" },
